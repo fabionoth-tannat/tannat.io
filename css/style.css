@@ -1,0 +1,62 @@
+nav.navbar {
+    background-color: #1c5358;
+}
+
+a.navbar-brand {
+    font-family: 'Bree Serif';
+    font-size: 36px; 
+    color:#53e6eb;
+}
+
+a.navbar-brand small{
+    font-size: 15px; 
+    color:#fff;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  #bg-header {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../images/background-header-min.jpg");
+  }
+
+  #bg-header-headline {
+    background-color: rgba(28,83,88, 0.70);
+    
+  }
+
+  #btn-header {
+    background-color: rgba(28,83,88, 0.70);
+  }
+
+  #pentest-image {
+    background-image: url("../images/pentest-image.jpg");
+    width: 50%; 
+    height: 300px;
+    object-fit: scale-down !important;
+  }
+
+  #devops-image {
+    background-image: url("../images/devops-image.jpg");
+    width: 50%; 
+    height: 300px;
+    object-fit: scale-down !important;
+  }
+
+  #audit-image {
+    background-image: url("../images/auditor-image.jpg");
+    width: 50%; 
+    height: 300px;
+    object-fit: scale-down !important;
+  }
